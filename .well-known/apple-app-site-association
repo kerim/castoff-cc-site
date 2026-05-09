@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["HBHZWD24V7.com.castoff.app"],
+        "components": [
+          {
+            "/": "/arc*",
+            "comment": "Open arc share links in Castoff"
+          }
+        ]
+      }
+    ]
+  }
+}

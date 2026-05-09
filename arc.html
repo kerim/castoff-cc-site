@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open in Castoff</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #1c1c1e;
+    --fg-dim: #555;
+    --bg: #fafafa;
+    --accent: #c44a3a;
+    --card: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #eee; --fg-dim: #999; --bg: #111; --accent: #ff6f5b; --card: #1c1c1e; }
+  }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); }
+  body {
+    font: 17px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .card {
+    max-width: 28rem;
+    text-align: center;
+    background: var(--card);
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.01em;
+  }
+  p { margin: 0 0 1.25rem; color: var(--fg-dim); }
+  .note {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--fg-dim);
+  }
+</style>
+</head>
+<body>
+<main class="card">
+  <h1>Open in Castoff</h1>
+  <p>This is an arc share link for Castoff, a podcast player for sequential listening.</p>
+  <p>If you have Castoff installed, this link will open the app and let you import the arc. Otherwise, get Castoff to use this link.</p>
+  <p class="note">Coming soon to the App Store.</p>
+</main>
+</body>
+</html>
